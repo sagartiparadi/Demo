@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<in.noname.support.widgets.MetaballMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/metaball_menu"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    app:backgroundColor="@android:color/holo_purple"
+    app:metaballColor="@android:color/white">
+
+    <in.noname.support.widgets.MetaballMenuImageView
+        android:id="@+id/menuitem1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="10dp"
+        app:defaultImage="@mipmap/card_sel"
+        app:selectedImage="@mipmap/card"/>
+
+    <in.noname.support.widgets.MetaballMenuImageView
+        android:id="@+id/menuitem2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="10dp"
+        app:defaultImage="@mipmap/dash_sel"
+        app:selectedImage="@mipmap/dash"
+        />
+
+    <!--<in.noname.support.widgets.MetaballMenuImageView-->
+        <!--android:id="@+id/menuitem3"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:padding="10dp"-->
+        <!--app:defaultImage="@mipmap/desc_sel"-->
+        <!--app:selectedImage="@mipmap/desc"-->
+        <!--/>-->
+
+    <!--<in.noname.support.widgets.MetaballMenuImageView-->
+        <!--android:id="@+id/menuitem4"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:padding="10dp"-->
+        <!--app:defaultImage="@mipmap/hist_sel"-->
+        <!--app:selectedImage="@mipmap/hist"/>-->
+</in.noname.support.widgets.MetaballMenu>

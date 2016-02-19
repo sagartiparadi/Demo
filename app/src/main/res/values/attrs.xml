@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Custom attributes for Metaball Menu -->
+    <declare-styleable name="MetaballMenu">
+        <attr name="backgroundColor" format="color" />          <!-- The background color. if its a layer list, it will be based on an id -->
+        <attr name="metaballColor" format="color" />            <!-- The color that the metaball selection should have -->
+        <attr name="backgroundShapeRadius" format="dimension" /> <!-- The radius value for the round rect background shape -->
+        <attr name="needsElevation" format="boolean" />          <!-- Indicates if the background shape needs elevation -->
+    </declare-styleable>
+
+    <!-- Custom attributes for Metaball Menu -->
+    <declare-styleable name="MetaballMenuImageView">
+        <attr name="defaultImage" format="reference"/>         <!-- The default non-selected image source -->
+        <attr name="selectedImage" format="reference"/>         <!-- The selected image source -->
+    </declare-styleable>
+
+</resources>
